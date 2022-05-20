@@ -16,22 +16,22 @@
 
 @media (min-width: 768px) {
   .pull-right-sm {
-    float: right !important; }
+    float: right; }
 
   .pull-left-sm {
-    float: left !important; } }
+    float: left; } }
 @media (min-width: 992px) {
   .pull-right-md {
-    float: right !important; }
+    float: right; }
 
   .pull-left-md {
-    float: left !important; } }
+    float: left; } }
 @media (min-width: 1200px) {
   .pull-right-lg {
-    float: right !important; }
+    float: right; }
 
   .pull-left-lg {
-    float: left !important; } }
+    float: left; } }
 * {
   box-sizing: border-box; }
 
@@ -73,7 +73,7 @@ body > .container-fluid {
   margin: 20px 0; }
 
 .btn:focus, a:focus {
-  outline: none !important; }
+  outline: none; }
 
 .navbar {
   height: 70px;
