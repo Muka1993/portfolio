@@ -48,12 +48,14 @@ img {
 body {
   height: 100%;
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
-  background-color: #7097a8;
   /* Margem inferior pela altura do rodapé */
   margin-bottom: 60px; 
 }
 
-h1,
+h1 {
+  color: #fff;
+}
+
 h2,
 h3,
 h4,
@@ -70,6 +72,24 @@ body > .container-fluid {
 
 .container-fluid .text-muted {
   margin: 20px 0; }
+
+  .container-fluid {
+    background-image: url(/imagens/code.jpg);
+    
+  }
+
+  .container-fluid::before {
+    position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 109%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: #7097a8de;
+  }
 
 .btn:focus, a:focus {
   outline: none; }
@@ -136,7 +156,7 @@ body > .container-fluid {
     padding: 15% 0 10% 0;
     height: 100vh;
     display: flex;
-    background-color: #7097a8; }
+     }
   .cover.bottom {
     padding: 10% 0 10% 0; }
 
@@ -160,6 +180,8 @@ body > .container-fluid {
 .profile-img {
   margin-bottom: 15px;
   width: 120px; }
+
+
 
 .about, .about-info, .about-tools, .about-last {
   padding: 4% 10% 1% 10%;
@@ -258,9 +280,11 @@ body > .container-fluid {
   margin-top: 200px;
   padding: 10px;
   font-size: 1.5em;
-  color: #1d3557;
-  border: solid 2px #1d3557;
+  color: #fff;
+  border: solid 2px #fff;
   border-radius: 50%; }
+
+  
 
 #scrollTopIcon {
   margin-top: 10px;
