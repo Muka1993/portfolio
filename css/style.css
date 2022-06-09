@@ -95,7 +95,7 @@ body > .container-fluid {
 
   @media screen and (min-width: 320px)  {  
     .container-fluid::before {
-      height: 115%;
+      height: 117%;
     }
   }
 
