@@ -39,7 +39,8 @@ html {
   position: relative;
   margin: 0;
   padding: 0;
-  height: 100%; 
+  height: 100%;
+  overflow-x: hidden; 
 }
   
 img {
@@ -95,7 +96,7 @@ body > .container-fluid {
 
   @media screen and (min-width: 320px)  {  
     .container-fluid::before {
-      height: 117%;
+      height: 116%;
     }
   }
 

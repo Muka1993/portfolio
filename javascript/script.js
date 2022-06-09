@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-        // Transition effect for navbar and back-to-top icon
+        // Efeito de transição para a barra de navegação e o ícone de volta ao topo
         $(window).scroll(function() {
-          // checks if window is scrolled more than 500px, adds/removes solid class
+          // verifica se a janela é rolada mais de 500px, adiciona/remove a classe sólida
           if($(this).scrollTop() > 550) { 
               $('.navbar').addClass('solid');
               $('.back-to-top').addClass('visible'); 
@@ -14,7 +14,7 @@ $(document).ready(function() {
         });
 
 
-        // Scrolling effect for Arrow icons
+        // Efeito de rolagem para ícones de seta
         $("#scrollIcon").click(function(e) {
             e.preventDefault();
             $.scrollTo($("#about"), 1000);
