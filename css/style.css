@@ -147,7 +147,7 @@ body > .container-fluid {
 @media screen and (min-width: 320px)  {  
   .navbar-default .navbar-toggle {
     border-color: #f0f0e6;
-    right: 15px;
+    right: 17px;
   }
 
   .navbar-default .navbar-nav > li > a:hover {
